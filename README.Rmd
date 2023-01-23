@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# Pres23RodoLaTeX
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of Pres23RodoLaTeX is to present an introduction to LaTeX and programs to generate PDF output using LaTeX.
+
+## Installation
+
+You can install the development version of Pres23RodoLaTeX like so:
+
+``` r
+if (!requireNamespace("devtools")) install.packages("devtools")
+devtools::install_github("MiguelRodo/Pres23RodoLaTeX")
+```
+
